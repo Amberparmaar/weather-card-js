@@ -7,6 +7,15 @@
 .card-wrap {
   min-height: 100vh;
 }
+.card{
+  outline: 2px solid white;
+  outline-offset: 4px;
+}
+.bordered{
+  border-radius: 47px 10px 49px 10px;
+-webkit-border-radius: 47px 10px 49px 10px;
+-moz-border-radius: 47px 10px 49px 10px;
+}
 .bg-rainy {
   background-image: url("./rainy.webp");
   background-repeat: no-repeat;
@@ -86,7 +95,7 @@
   -webkit-text-fill-color: transparent;
 }
 .bg-cloudy {
-  background-image: url("https://media.istockphoto.com/id/598222542/photo/sky-background.jpg?s=612x612&w=0&k=20&c=WBAiCExAztT4SzWh4hIgmQwTG7VMJ5o9oObXHszmm8A=");
+  background-image: url("https://i.pinimg.com/originals/aa/96/97/aa9697a3f7a61389675b8dc109518753.gif");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
