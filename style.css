@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card-wrap {
+  min-height: 100vh;
+}
+.bg-rainy {
+  background-image: url("./rainy.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.bg-sunny {
+  background-image: url("https://blog.joffeemergencyservices.com/hubfs/maxresdefault.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.icon-size {
+  font-size: 90px;
+}
+.icon-cloud {
+  background: linear-gradient(135deg, #54dae5, #408994);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.icon-sun {
+  background: linear-gradient(
+    to bottom,
+    #fff57b 0%,
+    #ffb343 30%,
+    #fa8607 60%,
+    #ff0800 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: sunrotate 4s linear infinite;
+}
+@keyframes sunrotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.icon-snowy {
+  background: linear-gradient(to bottom, #f9fdff 0%, #b8dbf2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bg-snowy {
+  background-image: url("https://media1.giphy.com/media/v1.Y2lkPTZjMDliOTUyM2p4OWsxZ2EzZzN1OGFvZGFucGhpMDZhYmV5Z252bXc2aDd0YjkyZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/BDucPOizdZ5AI/giphy.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.icon-windy {
+  background: linear-gradient(to bottom, #f4faff 0%, #9fd3ec 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bg-windy {
+  background-image: url("https://cdn.dribbble.com/userupload/5266489/file/original-015678219717e7599c41922073b3009f.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.icon-foggy {
+  background: linear-gradient(to bottom, #f4faff 0%, #9fd3ec 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bg-foggy {
+  background-image: url("https://i.pinimg.com/originals/29/9f/38/299f387c22dcf938ddd553f1e8d99d45.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.icon-cloudy {
+  background: linear-gradient(to bottom, #f5f7fa 0%, #c9ced6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bg-cloudy {
+  background-image: url("https://media.istockphoto.com/id/598222542/photo/sky-background.jpg?s=612x612&w=0&k=20&c=WBAiCExAztT4SzWh4hIgmQwTG7VMJ5o9oObXHszmm8A=");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.icon-stormy {
+  background: linear-gradient(to bottom, #f5f7fa 0%, #c9ced6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bg-stormy {
+  background-image: url("https://preethiinbrazil.wordpress.com/wp-content/uploads/2015/07/agnature2.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.icon-hail {
+  background: linear-gradient(to bottom, #f5f7fa 0%, #c9ced6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bg-hail {
+  background-image: url("https://i.gifer.com/Cba.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.text-linear {
+  background: linear-gradient(to bottom, #eef2f5 0%, #c9d3da 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
