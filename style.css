@@ -17,13 +17,13 @@
 -moz-border-radius: 47px 10px 49px 10px;
 }
 .bg-rainy {
-  background-image: url("./rainy.webp");
+  background-image: url("./assets/rainy.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .bg-sunny {
-  background-image: url("https://blog.joffeemergencyservices.com/hubfs/maxresdefault.jpg");
+  background-image: url("./assets/sunny.gif");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -62,7 +62,7 @@
   -webkit-text-fill-color: transparent;
 }
 .bg-snowy {
-  background-image: url("https://media1.giphy.com/media/v1.Y2lkPTZjMDliOTUyM2p4OWsxZ2EzZzN1OGFvZGFucGhpMDZhYmV5Z252bXc2aDd0YjkyZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/BDucPOizdZ5AI/giphy.gif");
+  background-image: url("./assets/snowy.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -73,7 +73,7 @@
   -webkit-text-fill-color: transparent;
 }
 .bg-windy {
-  background-image: url("https://cdn.dribbble.com/userupload/5266489/file/original-015678219717e7599c41922073b3009f.gif");
+  background-image: url("./assets/windy.gif");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -84,7 +84,7 @@
   -webkit-text-fill-color: transparent;
 }
 .bg-foggy {
-  background-image: url("https://i.pinimg.com/originals/29/9f/38/299f387c22dcf938ddd553f1e8d99d45.gif");
+  background-image: url("./assets/foggy.gif");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -95,7 +95,7 @@
   -webkit-text-fill-color: transparent;
 }
 .bg-cloudy {
-  background-image: url("https://i.pinimg.com/originals/aa/96/97/aa9697a3f7a61389675b8dc109518753.gif");
+  background-image: url("./assets/cloudy.gif");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -106,7 +106,7 @@
   -webkit-text-fill-color: transparent;
 }
 .bg-stormy {
-  background-image: url("https://preethiinbrazil.wordpress.com/wp-content/uploads/2015/07/agnature2.gif");
+  background-image: url("./assets/stormy.gif");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
